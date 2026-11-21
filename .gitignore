@@ -1,0 +1,31 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Original datasets
+data/MachineLearningCVE/
+data/MachineLearningCSV.zip
+
+# Large processed datasets
+data/processed/prepared_dataset.csv
+data/processed/selected_dataset.csv
+data/processed/X_train.csv
+data/processed/X_test.csv
+data/processed/y_train.csv
+data/processed/y_test.csv
+
+# Temporary testing files
+html_test.py
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local credentials
+.streamlit/credentials.toml
+app_backup.py
